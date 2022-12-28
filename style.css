@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(23, 40, 49);
+    background: linear-gradient(180deg, rgb(38, 48, 53) 0%);
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  header {
+    margin: 20px;
+    padding: 20px;
+    width: 60vw;
+    height: 85vh;
+    color: whitesmoke;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  iconify-icon {
+    color: red;
+    font-size: 30px;
+  }
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+  }
+  .container nav ul {
+    display: flex;
+    align-items: center;
+  }
+  nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    position: relative;
+  }
+  .container nav img {
+    width: 40px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+  .col-1 {
+    padding-right: 3%;
+    height: 75vh;
+    flex-basis: 47%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .col-1 h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  .fa-star {
+    color: gold;
+    font-size: 12px;
+    padding-right: 5px;
+  }
+  .col-1 span {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .col-1 span sup {
+    opacity: 70%;
+    padding-left: 5px;
+  }
+  .col-1 span p {
+    font-size: 10px;
+    padding-left: 35px;
+    opacity: 70%;
+  }
+  .col-1 p {
+    opacity: 70%;
+    font-size: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    border: 1px solid #055160;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background: #055160;
+    transition: background 0.5s;
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    margin-right: 5px;
+  }
+  .fa-play {
+    font-size: 12px;
+    margin-right: 6px;
+  }
+  
+  .btn:hover {
+    background: #021742;
+    border: 1px solid #004cff;
+  }
+  
+  .btn2 {
+    background: #192325;
+    opacity: 60%;
+  }
+  
+  .col-2 {
+    padding-left: 3%;
+    height: 75vh;
+    flex-basis: 47%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .col-2 .cards{
+    margin-top: 15px;
+  }
+  .col-2 h2{
+    margin-bottom: -10px;
+    font-size: 20px;
+  }
+  .cards img{
+      width: 90px;
+      border-radius: 5px;
+      margin: 4px;
+  }
+  .col-2 .cards h2{
+    margin-bottom: -4px;
+  }
+  .actors{
+    display: inline-flex;
+    
+  }
+  .actors img{
+    border-radius: 50%;
+    scale: .8;
+  }
+  h6{
+    padding-left: 15px;
+  }

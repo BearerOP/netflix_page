@@ -14,7 +14,7 @@
   header {
     margin: 20px;
     padding: 20px;
-    width: 60vw;
+    width: 70vw;
     height: 85vh;
     color: whitesmoke;
     background-image: url(img/main.jpg);
@@ -132,6 +132,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: flex-end;
   }
   .col-2 .cards{
     margin-top: 15px;
